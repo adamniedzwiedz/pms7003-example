@@ -21,12 +21,7 @@ _Note_
 The first command must be sent with at least 2 second delay after power on the sensor.
 
 ## How to install this app
-
-##### Via MOS UI web tool
-- Install and start [mos tool](https://mongoose-os.com/software.html)
-- Switch to the Project page, find and import this app, build and flash it:
-
-##### Via mos tool command line
+- [Download](https://github.com/adamniedzwiedz/pms7003-mongoose-example/archive/master.zip) or clone `git clone https://github.com/adamniedzwiedz/pms7003-mongoose-example` the project
 - Install [mos tool](https://mongoose-os.com/software.html)
 - Open command line window and run `mos build --arch esp8266`
 - Run `mos flash`
