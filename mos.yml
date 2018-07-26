@@ -1,0 +1,32 @@
+author: adamniedzwiedz <niedzwiedz.adam@gmail.com> 
+description: PMS7003 dust sensor usage
+version: 1.0
+
+libs_version: ${mos.version}
+modules_version: ${mos.version}
+mongoose_os_version: ${mos.version}
+
+# Optional. List of tags for online search.
+tags:
+  - c
+  - example
+  - pms7003
+  - uart
+
+# List of files / directories with C sources. No slashes at the end of dir names.
+sources:
+  - src
+
+# List of dirs. Files from these dirs will be copied to the device filesystem
+filesystem:
+  - fs
+
+# Uncomment to enable the debug mode
+#config_schema:
+#  - ["debug.level", 3]
+
+libs:
+  - origin: https://github.com/adamniedzwiedz/pms7003-mongoose-os-lib
+
+# Used by the mos tool to catch mos binaries incompatible with this file format
+manifest_version: 2017-09-29
